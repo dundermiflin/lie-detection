@@ -137,7 +137,7 @@ def save_confusion_matrix(y_pred, y_true, labels, filename):
     sns.heatmap(mat, annot = True, ax = ax, fmt = 'g', cmap = 'Greens')
     ax.set_xlabel('True')
     ax.set_ylabel('Predicted')
-    ax.set_title('Multiclass Classification Results')
+    ax.set_title('Classification Results')
     ax.xaxis.set_ticklabels(labels)
     ax.yaxis.set_ticklabels(labels)
     plt.xticks(rotation=45)
