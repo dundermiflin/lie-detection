@@ -51,5 +51,5 @@ This is then followed by a Bi-LSTM layer to learn contextual features in both di
 We concatenate the sentence-level features with the metadata features, and run them through a couple of fully-connected layers.  
 
 Below is the complete model architecture:  
-![Model Architecture](https://raw.githubusercontent.com/dundermiflin/lie-detection/figures/nn_model_plot.png)
+![Model Architecture](https://github.com/dundermiflin/lie-detection/blob/master/figures/nn_model_plot.png)
 
