@@ -63,3 +63,9 @@ Classification Task  | Validation Accuracy | Testing Accuracy
 ------------- | ------------- | -------------
 Binary  | 0.73  | 0.73
 Multiclass  | 0.49  | 0.44
+
+Following are the confusion matrices for the binary and multi-class classification tasks:  
+
+![Binary](https://github.com/dundermiflin/lie-detection/blob/master/figures/binary_confusion_matrix.png)
+
+![Multiclass](https://github.com/dundermiflin/lie-detection/blob/master/figures/multi_confusion_matrix.png)
