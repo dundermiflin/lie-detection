@@ -5,7 +5,6 @@ A Deep Learning model for fact-checking comments by politicians
 -  [Overview](#overview)
 -  [Details](#details)
 -  [Results](#results)
--  [Future Work](#future-work)
 
 ## Overview
 This is a Keras/Tensorflow implementation of one of the methods discussed in the paper [Where is your Evidence: Improving Fact-checking by Justification
