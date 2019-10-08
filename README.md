@@ -6,7 +6,6 @@ A Deep Learning model for fact-checking comments by politicians
 -  [Details](#details)
 -  [Results](#results)
 -  [Future Work](#future-work)
--  [Acknowledgments](#acknowledgments)
 
 ## Overview
 This is a Keras/Tensorflow implementation of one of the methods discussed in the paper [Where is your Evidence: Improving Fact-checking by Justification
@@ -51,5 +50,16 @@ This is then followed by a Bi-LSTM layer to learn contextual features in both di
 We concatenate the sentence-level features with the metadata features, and run them through a couple of fully-connected layers.  
 
 Below is the complete model architecture:  
+
 ![Model Architecture](https://github.com/dundermiflin/lie-detection/blob/master/figures/nn_model_plot.png)
 
+
+## Results
+The models were trained for 2 epochs with a batch size of 128 samples using the Adam OPtimizer.  
+
+We achieved the following accuracy values:  
+
+Classification Task  | Validation Accuracy | Testing Accuracy
+------------- | ------------- | -------------
+Binary  | 0.73  | 0.73
+Multiclass  | 0.49  | 0.44
